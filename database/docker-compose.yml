@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: postgres_Progetto
+    environment:
+      POSTGRES_USER: postgre
+      POSTGRES_PASSWORD: rooter
+      POSTGRES_DB: postgres
+    ports:
+      - "5443:5432"
+    volumes:
+      - postgres_data_project:/var/lib/postgresql/data
+volumes:
+  postgres_data_project:

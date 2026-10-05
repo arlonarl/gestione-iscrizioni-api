@@ -1,0 +1,52 @@
+# Maven e file compilati
+target/
+*.class
+*.jar
+*.war
+*.ear
+!**/.mvn/wrapper/maven-wrapper.jar
+pom.xml.versionsBackup
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# Eclipse / Spring Tool Suite
+.classpath
+.project
+.settings/
+.factorypath
+.sts4-cache/
+
+# Log e diagnostica JVM
+logs/
+*.log
+*.hprof
+hs_err_pid*
+replay_pid*
+
+# Variabili d'ambiente e configurazioni locali
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# File temporanei e metadati del sistema operativo
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
